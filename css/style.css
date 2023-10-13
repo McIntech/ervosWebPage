@@ -1,0 +1,17 @@
+body  {
+	background: #333;
+	color: #ccc;
+}
+
+.containerFull {
+	display: flex;
+	justify-content: center; /* Centra horizontalmente */
+	align-items: center; /* Centra verticalmente */
+	height: 100vh; /* Ocupa toda la altura del viewport */
+  }
+  
+  /* Estilo para la imagen */
+  .imageConstruccion {
+	max-width: 40%; /* La imagen se ajustará al ancho máximo del contenedor */
+	height: auto; /* La altura se ajustará automáticamente */
+  }
