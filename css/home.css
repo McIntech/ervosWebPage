@@ -1,0 +1,157 @@
+/* home.html */
+.first_section_nav_1837 {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icono_navegador {
+    width: 100%;
+    height: 120px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_icon_LogotipoErvos {
+    width: 250px;
+}
+
+
+.direccion_navegador {
+    width: 70px;
+    height: 50px;
+    background-color: rgb(238, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.WhatsApp_navegador {
+    width: 70px;
+    height: 50px;
+    background-color: rgb(0, 238, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes_navegador {
+    width: 70px;
+    height: 50px;
+    background-color: rgb(0, 255, 21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second_section_nav_7382 {
+    background-color: aqua;
+    height: 190px;
+    width: 100%;
+    position: fixed;
+    top: 50px;
+}
+
+.touch_menu_8374 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.link_home {}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 576px o más aquí */
+    body {
+        background: red
+    }
+
+    ;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 768px o más aquí */
+    body {
+        background: rgb(0, 140, 255)
+    }
+
+    ;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 992px o más aquí */
+    body {
+        background: rgb(0, 255, 55)
+    }
+
+    ;
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 1200px o más aquí */
+    body {
+        background: rgb(255, 0, 200)
+    }
+
+    ;
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+    /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 1400px o más aquí */
+    body {
+        background: rgb(255, 238, 0)
+    }
+
+    ;
+}
+
+.section_citas_container{
+    background-color: rgb(0, 174, 255);
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.numero_whatsapp_citas{
+    margin: 0 auto;
+}
+/* home.html */
+
+.container_citas_section {
+    text-align: center; /* Centra horizontalmente el contenido */
+    margin-bottom: 10px;
+}
+
+.container_citas_section svg {
+    /* Asegura que el icono SVG se muestre centrado horizontalmente */
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.container_citas_section h5 {
+    /* Asegura que el texto se muestre centrado horizontalmente */
+    display: inline-block;
+    margin: 0 auto;
+}
+.text_citas{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
