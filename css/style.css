@@ -1,8 +1,17 @@
-body {
-	background: #ffffff;
-	color: #000000;
+:root {
+    --azul_fuerte: #2b8bc0;
+    --fondo_pantalla: #f5fbff;
+    --azul_claro: #30acef;
+    --blanco_gris: #f7f7f7;
 }
 
+body {
+	background: var(--fondo_pantalla);
+	color: #000000;
+}
+a{
+    color: white;
+}
 .containerFull {
 	display: flex;
 	justify-content: center;
@@ -40,9 +49,10 @@ body {
     text-decoration: none;
     transition: background-color 0.3s ease, color 0.3s ease;
     cursor: pointer;
+    width: 100%;
 }
 .image_nav_menu {
-    background-color: blue;
+    background-color: var(--blanco_gris);
     width: 80px;
     height: 40px;
     display: flex;
@@ -62,7 +72,7 @@ body {
 .button_navegador_3847{
 	height: 50px;
 	width: 100%;
-	background-color: rgba(145, 255, 0, 0.877);
+	background-color: var(--azul_fuerte);
     position: relative;
 }
 .fa_nav_menu{
@@ -118,11 +128,7 @@ body {
 /*test*/
 /* Estilos similares a Bootstrap */
 /* Estilos similares a Bootstrap */
-.second_section_nav_7382 {
-    background-color: #f8f9fa; /* Color de fondo similar a Bootstrap */
-    padding: 10px;
-    border: 1px solid #dee2e6; /* Borde similar a Bootstrap */
-}
+
 
 .nav {
     flex-direction: column;
@@ -148,4 +154,256 @@ body {
 
 .nav-link.active {
     color: #0056b3;
+}
+
+/* home.html */
+.first_section_nav_1837 {
+    background-color: var(--azul_fuerte);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icono_navegador {
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_icon_LogotipoErvos {
+    width: 250px;
+}
+
+
+.direccion_navegador {
+    width: 70px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.WhatsApp_navegador {
+    width: 70px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.redes_navegador {
+    width: 70px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.second_section_nav_7382 {
+    background-color: var(--blanco_gris);
+    height: 190px;
+    width: 100%;
+    position: fixed;
+    top: 50px;
+}
+
+.touch_menu_8374 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.link_home {}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 576px o más aquí */
+    body {
+        background: red
+    }
+
+    ;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 768px o más aquí */
+    body {
+        background: rgb(0, 140, 255)
+    }
+
+    ;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 992px o más aquí */
+    body {
+        background: rgb(0, 255, 55)
+    }
+
+    ;
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 1200px o más aquí */
+    body {
+        background: rgb(255, 0, 200)
+    }
+
+    ;
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+    /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 1400px o más aquí */
+    body {
+        background: rgb(255, 238, 0)
+    }
+
+    ;
+}
+
+.section_citas_container{
+    background-color: var(--azul_claro);
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.numero_whatsapp_citas{
+    margin: 0 auto;
+}
+/* home.html */
+
+.container_citas_section {
+    text-align: center; /* Centra horizontalmente el contenido */
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.container_citas_section svg {
+    /* Asegura que el icono SVG se muestre centrado horizontalmente */
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.container_citas_section h5 {
+    /* Asegura que el texto se muestre centrado horizontalmente */
+    display: inline-block;
+    margin: 0 auto;
+}
+.text_citas{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.image_doctor_451646{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 19.920px;
+    background-image: url('../images/imagendoc.png');
+    background-size: cover;
+}
+
+.main_footer{
+    background-color: var(--azul_fuerte);
+    height: 50px;
+    width: 100%;
+}
+
+.icon_container_284371298{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+}
+
+/*test*/
+/* Estilo del contenedor principal */
+.doctor_info_section_284371298 {
+    background-color: #f2f2f2; /* Color de fondo */
+    border: 1px solid #ccc; /* Borde */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    overflow: hidden; /* Para contener elementos internos */
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/* Estilo del icono */
+.icon_container_284371298 {
+    background-color: #3498db; /* Color de fondo del contenedor del ícono */
+    color: #fff; /* Color del ícono */
+    border-radius: 50%; /* Hacer el contenedor del ícono circular */
+    width: 40px; /* Tamaño del contenedor del ícono */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px; /* Espaciado a la derecha */
+    float: left; /* Para que no afecte al flujo del contenedor principal */
+}
+
+/* Estilo del título */
+h5 {
+    font-size: 18px; /* Tamaño del texto del título */
+    color: #333; /* Color del texto del título */
+    margin-top: 0; /* Elimina el margen superior predeterminado */
+}
+
+/* Estilo del párrafo de texto */
+p {
+    font-size: 14px; /* Tamaño del texto del párrafo */
+    color: #666; /* Color del texto del párrafo */
+    line-height: 1.4; /* Espaciado entre líneas */
+    margin-top: 0; /* Elimina el margen superior predeterminado */
+    clear: both; /* Para que los elementos flotantes no afecten */
+}
+
+.image_doctor_23423424{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 19.920px;
+    background-image: url('../images/doctor_image_2.png');
+    background-size: cover;
+}
+
+.image_doctor_328429837{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 19.920px;
+    background-image: url('../images/image_services.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
+.servicios_3824279823{
+    text-align: center;
+}
+.section_service_3847298347{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
