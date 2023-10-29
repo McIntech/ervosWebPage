@@ -41,9 +41,9 @@ a{
 .button-primary {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #54B8FF;
     color: #fff;
-    border: 1px solid #007bff;
+    border: 1px solid #54B8FF;
     border-radius: 4px;
     text-align: center;
     text-decoration: none;
@@ -55,9 +55,6 @@ a{
     background-color: var(--blanco_gris);
     width: 80px;
     height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     right: 0;
     top: 50%;
     position: absolute;
@@ -76,7 +73,10 @@ a{
     position: relative;
 }
 .fa_nav_menu{
-    height: 30px;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 /*test*/ 
@@ -320,14 +320,6 @@ a{
     margin-top: 20px;
 }
 
-.image_doctor_451646{
-    height: 300px;
-    width: 100%;
-    margin-bottom: 19.920px;
-    background-image: url('../images/imagendoc.png');
-    background-size: cover;
-}
-
 .main_footer{
     background-color: var(--azul_fuerte);
     height: 50px;
@@ -383,13 +375,16 @@ p {
     clear: both; /* Para que los elementos flotantes no afecten */
 }
 
-.image_doctor_23423424{
+.image_doctor_23423424 {
     height: 300px;
     width: 100%;
     margin-bottom: 19.920px;
-    background-image: url('../images/doctor_image_2.png');
+    background-image: url('../images/imagen_doctor_josue.jpeg');
     background-size: cover;
+    background-position: center; /* Mantiene la imagen centrada horizontalmente */
+    background-position-y: -40px; /* Mueve la imagen hacia abajo 10 píxeles */
 }
+
 
 .image_doctor_328429837{
     height: 300px;
@@ -407,3 +402,4 @@ p {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+

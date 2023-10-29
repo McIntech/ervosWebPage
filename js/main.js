@@ -3,28 +3,14 @@ const menuLinks = document.getElementById('nav_7382'); // Elemento para establec
 
 const webAccess = document.getElementsByClassName('web_page_access');
 // Establece el menú como no visible al principio
-menuLinks.style.display = 'none';
+// menuLinks.style.display = 'none';
 // Establece el overlay como no visible al principio
 
 
 
 let isMenuVisible = false; // Variable para seguir el estado del menú (cambia a false)
 
-menuIcon.addEventListener('click', (e) => {
-    console.log('working...' + e);
-    const computedStyle = window.getComputedStyle(menuLinks);
-    const displayValue = computedStyle.getPropertyValue('display');
-    
-    if (displayValue === 'block' && isMenuVisible) {
-        console.log('El menú está visible. Ocultándolo...');
-        menuLinks.style.display = 'none';
-        isMenuVisible = false;
-    } else if (!isMenuVisible) {
-        console.log('El menú está oculto. Mostrándolo...');
-        menuLinks.style.display = '';
-        isMenuVisible = true;
-    }
-});
+
 
 // Sección para el DEMO.
 const demo_layer = document.querySelector('.DEMO');
