@@ -3,10 +3,19 @@
     --fondo_pantalla: #f5fbff;
     --azul_claro: #30acef;
     --blanco_gris: #f7f7f7;
+    --coloruno: #5FA8D3;
+    --colordos: #FCFEFF;
+    --colortres: #1B4965;
+    --colorcuatro: #62B6CB;
+    --colorcinco: #BEE9E8;
+    --colorseis: #E9F6FF;
+    --colorsiete: #35BDF2;
+    --colorocho: #2C96BF;
+    --colornueve: #F0FFFF;
 }
 
 body {
-	background: var(--fondo_pantalla);
+	background: var(--colordos);
 	color: #000000;
 }
 a{
@@ -282,10 +291,13 @@ a{
 }
 
 .section_citas_container{
-    background-color: var(--azul_claro);
+    background-color: var(--colornueve);
     padding: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
+    border: 2px solid var(--colorcuatro);
+    border-radius: .5rem;
+    position: relative;
 }
 
 .numero_whatsapp_citas{
@@ -321,9 +333,7 @@ a{
 }
 
 .main_footer{
-    background-color: var(--azul_fuerte);
-    height: 50px;
-    width: 100%;
+    background-color: var(--colorocho);
 }
 
 .icon_container_284371298{
@@ -403,3 +413,117 @@ p {
     margin-bottom: 50px;
 }
 
+.navbar{
+    background-color: var(--colorocho);
+}
+.navbar-toggler{
+    background-color: var(--blanco_gris);
+}
+.nav-link{
+    color: var(--blanco_gris);
+}
+.navbar-brand{
+    background-image: url('../images/LogotipoErvos.png');
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 100px;
+    border-radius: .25rem;
+    border: 1px solid transparent;
+}
+.title_doctor_name_38149123{
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--colortres);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: var(--colorcuatro);
+}
+.subtitle_doctor_name_38149123{
+    font-size: 1rem;
+    text-align: center;
+    color: var(--colortres);
+}
+.video_container_intro{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button_intro_servicios_34812392783{
+    width: 200px;
+}
+.container_icon_facebook_9193471293847{
+    height: 50px;
+    width: 50px;
+    background-image: url('../images/facebook.png');
+    background-position: center;
+    background-size: cover;    
+}
+
+.container_icon_instagram_9193471293847{
+    height: 50px;
+    width: 50px;
+    background-image: url('../images/instagram.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.container_intro_icons_3471923487123984 {
+    display: flex;
+    flex-direction: row; /* Alinea verticalmente los elementos en columna */
+    justify-content: space-between; /* Centra verticalmente los elementos en el contenedor */
+    align-items: center; /* Centra horizontalmente los elementos en el contenedor */
+}
+.title_card_29034712039847{
+    color: var(--colortres);
+    font-size: 2rem;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.title_card_bio_29034712039847{
+    color: var(--colortres);
+    font-size: 1rem;
+    margin-top: 15px;
+    margin-right: 80px;
+}
+.sub_title_card_2934712039847{
+    color:  var(--colorsiete);
+}
+.underline_8371293487{
+    width: 100px;
+    height: 5px;
+    background-color: var(--colorcuatro);
+    margin-bottom: 8px;
+}
+.parrafo_card_387193247{
+    color: var(--colortres);
+}
+.icon_card_3847293487{
+    height: 50px;
+    width: 50px;
+    top: 15px;
+    right: 15px;
+    background-color: var(--colorcinco);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    color: var(--colortres);
+}
+.icono-flotante_3847239487 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    background-image: url('../images/whatsappBubble.png');
+    background-position: center;
+    background-size: contain;
+}
