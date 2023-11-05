@@ -234,69 +234,13 @@ a{
 .link_home {}
 
 
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-
-    /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 576px o más aquí */
-    body {
-        background: red
-    }
-
-    ;
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
-    /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 768px o más aquí */
-    body {
-        background: rgb(0, 140, 255)
-    }
-
-    ;
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-    /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 992px o más aquí */
-    body {
-        background: rgb(0, 255, 55)
-    }
-
-    ;
-}
-
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-    /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 1200px o más aquí */
-    body {
-        background: rgb(255, 0, 200)
-    }
-
-    ;
-}
-
-/* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-
-    /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 1400px o más aquí */
-    body {
-        background: rgb(255, 238, 0)
-    }
-
-    ;
-}
-
 .section_citas_container{
-    background-color: var(--colornueve);
+    background-color: #ffffff;
     padding: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
-    border: 2px solid var(--colorcuatro);
-    border-radius: .5rem;
+    border: 1px solid var(--colorcuatro);
+    border-radius: .3rem;
     position: relative;
 }
 
@@ -333,7 +277,7 @@ a{
 }
 
 .main_footer{
-    background-color: var(--colorocho);
+    background-color: var(--colortres);
 }
 
 .icon_container_284371298{
@@ -414,13 +358,14 @@ p {
 }
 
 .navbar{
-    background-color: var(--colorocho);
+    background-color: white;
+    border-bottom: 1px solid var(--colortres);
 }
 .navbar-toggler{
-    background-color: var(--blanco_gris);
+    background-color: var(--colorcinco);
 }
 .nav-link{
-    color: var(--blanco_gris);
+    color: var(--colortres);
 }
 .navbar-brand{
     background-image: url('../images/LogotipoErvos.png');
@@ -451,6 +396,7 @@ p {
 }
 .button_intro_servicios_34812392783{
     width: 200px;
+    background-color: var(--colortres);
 }
 .container_icon_facebook_9193471293847{
     height: 50px;
@@ -471,7 +417,7 @@ p {
 .container_intro_icons_3471923487123984 {
     display: flex;
     flex-direction: row; /* Alinea verticalmente los elementos en columna */
-    justify-content: space-between; /* Centra verticalmente los elementos en el contenedor */
+    justify-content: center ; /* Centra verticalmente los elementos en el contenedor */
     align-items: center; /* Centra horizontalmente los elementos en el contenedor */
 }
 .title_card_29034712039847{
@@ -487,11 +433,12 @@ p {
     margin-right: 80px;
 }
 .sub_title_card_2934712039847{
-    color:  var(--colorsiete);
+    color:  var(--colortres);
+    font-size: 0.8rem;
 }
 .underline_8371293487{
     width: 100px;
-    height: 5px;
+    height: 1px;
     background-color: var(--colorcuatro);
     margin-bottom: 8px;
 }
@@ -501,9 +448,8 @@ p {
 .icon_card_3847293487{
     height: 50px;
     width: 50px;
-    top: 15px;
-    right: 15px;
-    background-color: var(--colorcinco);
+    top: 0px;
+    right: 0px;
     position: absolute;
     display: flex;
     align-items: center;
@@ -526,4 +472,274 @@ p {
     background-image: url('../images/whatsappBubble.png');
     background-position: center;
     background-size: contain;
+}
+.line_divide_2387934578{
+    width: 200px;
+    height: 2px;
+    background-color: var(--colorcuatro);
+}
+.main_footer_8373249872349587{
+    height: 80px;
+    width: 100%;
+    background-color: var(--colorocho);
+}
+
+.text_main_info_432759234587{
+    color: var(--colortres);
+}
+.parrafo_main_info_872394873945875{
+    color: var(--coloruno);
+}
+.text_main_footer_432759234587{
+    color: white;
+}
+.text-copyright{
+    color: white;
+}
+
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Color negro con 50% de opacidad */
+}
+
+.carousel-button {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centrar el botón */
+    z-index: 1; /* Asegurarse de que el botón esté encima de las imágenes y superposición */
+}
+
+.btn-primary{
+    background-color: var(--colortres);
+    color: white;
+    border: none;
+}
+
+.d-none-phone{
+    display: none;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 576px o más aquí */
+    body {
+        background: red;
+    }
+
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 768px o más aquí */
+    body {
+        background: rgb(0, 140, 255);
+    }
+
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 992px o más aquí */
+    body {
+        background: rgb(0, 255, 55);
+    }
+
+    
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 1200px o más aquí */
+    body {
+        background: rgb(255, 0, 200);
+    }
+}
+
+@media (max-width: 1199.98px) { /* Usamos 1199.98px para asegurarnos de que los estilos se aplican correctamente justo por debajo de 1200px */
+
+    .delete_in_phone {
+        display: none; /* Esto ocultará el elemento con clase .delete_in_phone en pantallas menores de 1200px */
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+    /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 1400px o más aquí */
+    body {
+        background: rgb(255, 238, 0);
+    }
+
+    .d-none-desktops{
+        display: none;
+    }
+
+    .navbar .navbar-expand-lg .mb-5{
+        margin-bottom: 0px;
+    }
+
+    .container_home_section_3817329847 {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        clip-path: polygon(100% 80%, 50% 90%, 0 80%, 0 0, 56% 0, 100% 0);
+    }
+    
+    .section_text_title_83471293482{
+        width: 50%;
+        background-color: #edfaff;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .section_image_doc_38417293487129{
+        width: 50%;
+        background-color: white;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section_divition_34847129347{
+        width: 100%; /* Ancho completo de la página */
+        height: 200px; /* Altura del divisor, ajusta según sea necesario */
+        background-color: #000; /* Fondo negro */
+        clip-path: polygon(100% 45%, 50% 75%, 0 45%, 0 40%, 50% 70%, 100% 40%);
+    }
+
+    .container_section_info_384293487{
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 400px;
+        z-index: -1;
+    }
+
+    .section_citas_384293487{
+        width: 50%;
+        background-color: #35BDF2;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 70px;
+        padding-left: 70px;
+        text-align: center;
+    }
+
+    .section_horario_3841723948712{
+        width: 50%;
+        background-color: white;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 70px;
+        padding-left: 70px;
+        text-align: center;
+    }
+
+    .section_image_doc_38417293487129 img {
+        /* Ejemplos de propiedades que puedes editar */
+        width: 400px; /* Establecer un ancho específico */
+        height: auto; /* Mantener la proporción de aspecto */
+        /* ...otros estilos... */
+    }
+
+    .footer_web_328472394 {
+        width: 100%;
+        background-color: #1B4965;
+        position: fixed; /* Fija el footer en la parte inferior de la pantalla */
+        bottom: 0; /* Asegura que el footer se quede en la parte inferior */
+        left: 0; /* Alinea el footer a la izquierda */
+    }
+    .footer_web_328472394_sin_fix{
+        width: 100%;
+        background-color: #1B4965;
+        bottom: 0; /* Asegura que el footer se quede en la parte inferior */
+        left: 0; /* Alinea el footer a la izquierda */
+    }
+    .title_web_38472983427{
+        margin-bottom: 0px;
+    }
+    .citas_text_384713948{
+        color: white;
+    }
+    .horario_text_83471932847{
+        color: #35BDF2;
+    }
+    .phone_number_3847293{
+        color: #35BDF2;
+    }
+    .color_white{
+        color: white;
+    }
+
+    .line_divide_492839483{
+        width: 200px;
+        height: 2px;
+        background-color: var(--colorcuatro);
+        margin-top: 4px;
+        margin-bottom: 8px;
+    }
+    .line_divide_4928394833432{
+        width: 200px;
+        height: 2px;
+        background-color: white;
+        margin-top: 4px;
+        margin-bottom: 8px;
+    }
+    .arrow_left{
+        height: 85%;
+        width: 60px;
+        background-color: rgba(0, 0, 0, 0.159);
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .arrow_right{
+        height: 85%;
+        width: 60px;
+        background-color: rgba(0, 0, 0, 0.159);
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .image_home_34718734687 img{
+        width: 500px;
+    }
+    .arrow_right, .arrow_left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Agrega aquí más estilos para tamaño, color, posición, etc. */
+      }
+      
+      .arrow_right i, .arrow_left i {
+        font-size: 24px; /* O el tamaño que prefieras */
+        color: #yourColor; /* Cambia #yourColor por el código de color que quieras */
+        /* Agrega cualquier otro estilo para tus íconos aquí */
+      }
+      
 }
