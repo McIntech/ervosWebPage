@@ -561,8 +561,256 @@ p {
 
     /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 1200px o más aquí */
     body {
-        background: rgb(255, 0, 200);
+        background: rgb(255, 255, 255);
     }
+    .d-none-desktops{
+        display: none;
+    }
+
+    .navbar .navbar-expand-lg .mb-5{
+        margin-bottom: 0px;
+    }
+
+    .container_home_section_3817329847 {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        clip-path: polygon(100% 80%, 50% 90%, 0 80%, 0 0, 56% 0, 100% 0);
+    }
+    
+    .section_text_title_83471293482{
+        width: 50%;
+        background-color: #edfaff;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .section_image_doc_38417293487129{
+        width: 50%;
+        background-color: white;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section_divition_34847129347{
+        width: 100%; /* Ancho completo de la página */
+        height: 200px; /* Altura del divisor, ajusta según sea necesario */
+        background-color: #000; /* Fondo negro */
+        clip-path: polygon(100% 45%, 50% 75%, 0 45%, 0 40%, 50% 70%, 100% 40%);
+    }
+
+    .container_section_info_384293487{
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 400px;
+        z-index: -1;
+    }
+
+    .section_citas_384293487{
+        width: 50%;
+        background-color: #35BDF2;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 70px;
+        padding-left: 70px;
+        text-align: center;
+    }
+
+    .section_horario_3841723948712{
+        width: 50%;
+        background-color: white;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 70px;
+        padding-left: 70px;
+        text-align: center;
+    }
+
+    .section_image_doc_38417293487129 img {
+        /* Ejemplos de propiedades que puedes editar */
+        width: 400px; /* Establecer un ancho específico */
+        height: auto; /* Mantener la proporción de aspecto */
+        /* ...otros estilos... */
+    }
+
+    .footer_web_328472394 {
+        width: 100%;
+        background-color: #1B4965;
+        position: fixed; /* Fija el footer en la parte inferior de la pantalla */
+        bottom: 0; /* Asegura que el footer se quede en la parte inferior */
+        left: 0; /* Alinea el footer a la izquierda */
+    }
+    .footer_web_328472394_sin_fix{
+        width: 100%;
+        background-color: #1B4965;
+        bottom: 0; /* Asegura que el footer se quede en la parte inferior */
+        left: 0; /* Alinea el footer a la izquierda */
+    }
+    .title_web_38472983427{
+        margin-bottom: 0px;
+    }
+    .citas_text_384713948{
+        color: white;
+    }
+    .horario_text_83471932847{
+        color: #35BDF2;
+    }
+    .phone_number_3847293{
+        color: #35BDF2;
+    }
+    .color_white{
+        color: white;
+    }
+
+    .line_divide_492839483{
+        width: 200px;
+        height: 2px;
+        background-color: var(--colorcuatro);
+        margin-top: 4px;
+        margin-bottom: 8px;
+    }
+    .line_divide_4928394833432{
+        width: 200px;
+        height: 2px;
+        background-color: white;
+        margin-top: 4px;
+        margin-bottom: 8px;
+    }
+    .arrow_left{
+        height: 85%;
+        width: 60px;
+        background-color: rgba(0, 0, 0, 0.159);
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .arrow_right{
+        height: 85%;
+        width: 60px;
+        background-color: rgba(0, 0, 0, 0.159);
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .image_home_34718734687 img{
+        width: 500px;
+    }
+    .arrow_right, .arrow_left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Agrega aquí más estilos para tamaño, color, posición, etc. */
+      }
+      
+      .arrow_right i, .arrow_left i {
+        font-size: 24px; /* O el tamaño que prefieras */
+        color: black; /* Cambia #yourColor por el código de color que quieras */
+        /* Agrega cualquier otro estilo para tus íconos aquí */
+      }
+      .image_services_container_3871384179{
+        height: 400px;
+        width: 100%;
+        background-image: url('../images/services2.jpg');
+        background-position: center;
+        background-size: cover; /* Esto hará que la imagen sea un poco más pequeña */
+        position: relative;
+        background-repeat: no-repeat;
+      }
+      .servicios_text_38217293847{
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        bottom: 0;
+      }
+      .services_horizontal_34781239487{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 100px;
+      }
+      .image_services_283471293487{
+        height: 100px;
+        width: 150px;
+        background-image: url('../images/image_services.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+      .line_service_38421928374{
+        width: 150px;
+        height: 1px;
+        background-color: #35BDF2;
+      }
+      .center_service_3842173981273498{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 150px;
+      }
+      .text_service_link{ /* Agregado para asegurar que el foco tampoco tenga subrayado */
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: black;
+        text-decoration: none; /* Esto asegura que no haya underline */
+        cursor: pointer;
+      }
+      .line_arrows_38427139847{
+        height: 50px;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: flex-end; /* Alinea los elementos hijos verticalmente al final del contenedor */
+        justify-content: flex-end; /* Alinea los elementos hijos horizontalmente al final (derecha) del contenedor */
+      }
+      .arrow_38417398427{
+        background-color: rgb(0, 0, 0); /* Fondo azul para las flechas */
+        color: rgb(254, 254, 254); /* Color del ícono, por ejemplo blanco */
+        padding: 10px; /* Espacio alrededor del ícono */
+        margin: 5px; /* Margen alrededor de los íconos para evitar que se toquen */
+ /* Opcional: para hacer que el fondo sea circular */
+        transition: transform 0.3s ease; /* Transición suave para el efecto de agrandar */
+      }
+      
+      .arrow_38417398427:hover{
+        transform: scale(1.2); /* Agrandar el ícono al pasar el mouse sobre él */
+      }
+      .modal-content{
+        height: 750px;
+      }
+      .custom-width {
+        max-width: 800px; /* o el ancho que prefieras */
+      }
+      .logo_descripcion_328412739847{
+        height: 50px;
+        width: 150px;
+        background-image: url('../images/LogotipoErvos.png');
+        background-position: center;
+        background-size: cover;
+      }
+      
 }
 
 @media (max-width: 1199.98px) { /* Usamos 1199.98px para asegurarnos de que los estilos se aplican correctamente justo por debajo de 1200px */
@@ -577,7 +825,7 @@ p {
 
     /* Agrega tus estilos específicos para dispositivos con ancho de pantalla de 1400px o más aquí */
     body {
-        background: rgb(255, 238, 0);
+        background: rgb(255, 255, 255);
     }
 
     .d-none-desktops{
@@ -738,7 +986,7 @@ p {
       
       .arrow_right i, .arrow_left i {
         font-size: 24px; /* O el tamaño que prefieras */
-        color: #yourColor; /* Cambia #yourColor por el código de color que quieras */
+        color: black; /* Cambia #yourColor por el código de color que quieras */
         /* Agrega cualquier otro estilo para tus íconos aquí */
       }
       
