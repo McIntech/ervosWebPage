@@ -643,6 +643,14 @@ p {
         text-align: center;
     }
 
+    .footer_web_328472394_sin_fix_34187329487{
+        margin-top: 250px;
+        width: 100%;
+        background-color: #1B4965;
+        bottom: 0; /* Asegura que el footer se quede en la parte inferior */
+        left: 0; /* Alinea el footer a la izquierda */
+    }
+
     .section_image_doc_38417293487129 img {
         /* Ejemplos de propiedades que puedes editar */
         width: 400px; /* Establecer un ancho específico */
