@@ -7,19 +7,19 @@ var imageContainer = document.querySelector('.section_image_doc_38417293487129')
 
 var object = {
     slide1: {
-        texts: ['DR. JOSUE ROBERTO LOZANO', 'CIRUJANO OFTALMOLOGO', 'VER MÁS SERVICIOS'],
+        texts: ['DR. JOSUE ROBERTO LOZANO', 'CIRUJANO OFTALMOLOGO', 'CIRUGÍAS'],
         imageUrl: './images/dr_lozano.png'
     },
     slide2: {
-        texts: ['DR. JOSUE ROBERTO LOZANO', 'CIRUGIA DE CATARATA', 'VER MÁS SERVICIOS'],
+        texts: ['DR. JOSUE ROBERTO LOZANO', 'CIRUGIA DE CATARATA', 'CIRUGÍAS'],
         imageUrl: './images/image_1.png'
     },
     slide3: {
-        texts: ['DR. JOSUE ROBERTO LOZANO', 'CIRUGIA DE RETINA', 'VER MÁS SERVICIOS'],
+        texts: ['DR. JOSUE ROBERTO LOZANO', 'CIRUGIA DE RETINA', 'CIRUGÍAS'],
         imageUrl: './images/image_2.png'
     },
     slide4: {
-        texts: ['DR. JOSUE ROBERTO LOZANO', 'CIRUGIA LASIK', 'VER MÁS SERVICIOS'],
+        texts: ['DR. JOSUE ROBERTO LOZANO', 'CIRUGIA LASIK', 'CIRUGÍAS'],
         imageUrl: './images/image_3.png'
     },
     // ... y así sucesivamente con los otros slides
