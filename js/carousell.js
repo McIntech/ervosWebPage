@@ -8,19 +8,19 @@ var imageContainer = document.querySelector('.section_image_doc_38417293487129')
 var object = {
     slide1: {
         texts: ['DR. JOSUE ROBERTO LOZANO', 'CIRUJANO OFTALMOLOGO', 'CIRUGÍAS'],
-        imageUrl: './images/dr_lozano.png'
+        imageUrl: './images/doctor_image.jpg'
     },
     slide2: {
         texts: ['DR. JOSUE ROBERTO LOZANO', 'CIRUGIA DE CATARATA', 'CIRUGÍAS'],
-        imageUrl: './images/image_1.png'
+        imageUrl: './images/abuelo_image.jpg'
     },
     slide3: {
         texts: ['DR. JOSUE ROBERTO LOZANO', 'CIRUGIA DE RETINA', 'CIRUGÍAS'],
-        imageUrl: './images/image_2.png'
+        imageUrl: './images/ojo_tecno_image.jpg'
     },
     slide4: {
         texts: ['DR. JOSUE ROBERTO LOZANO', 'CIRUGIA LASIK', 'CIRUGÍAS'],
-        imageUrl: './images/image_3.png'
+        imageUrl: './images/ojo_laser_image.jpg'
     },
     // ... y así sucesivamente con los otros slides
 };
@@ -40,14 +40,15 @@ function updateSlide() {
     text_1.textContent = currentSlide.texts[0];
     text_2.textContent = currentSlide.texts[1];
     text_3.textContent = currentSlide.texts[2];
+    text_1.style.fontFamily = 'ALTA';
+    text_2.style.fontFamily = 'ALTA';
+    text_3.style.fontFamily = 'ALTA';
 
     imageContainer.style.backgroundImage = `url('${currentSlide.imageUrl}')`;
-    if (currentSlideIndex === 0) {
-        imageContainer.style.backgroundSize = '40%';
-    } else {
-        imageContainer.style.backgroundSize = '135%';
-    }
-    imageContainer.style.backgroundPosition = 'center';
+
+    
+
+    
     imageContainer.style.backgroundRepeat = 'no-repeat';
 }
 
@@ -68,3 +69,11 @@ setInterval(function() {
     currentSlideIndex++; // Incrementa el índice para ir al siguiente slide
     updateSlide(); // Actualiza el slide
 }, 10000); // 5000 milisegundos = 5 segundos
+
+
+window.addEventListener('resize', (e) => {
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    console.log(`Ancho: ${width}, Altura: ${height}`);
+});
