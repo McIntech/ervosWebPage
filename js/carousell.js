@@ -41,6 +41,10 @@ function updateSlide() {
     text_2.textContent = currentSlide.texts[1];
     text_3.textContent = currentSlide.texts[2];
 
+    text_1.style.fontFamily = 'GoodnightLondonSans';
+    text_2.style.fontFamily = 'GoodnightLondonSans';
+    text_3.style.fontFamily = 'GoodnightLondonSans';
+
     imageContainer.style.backgroundImage = `url('${currentSlide.imageUrl}')`;
 
     

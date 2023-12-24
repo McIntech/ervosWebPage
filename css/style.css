@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'GoodnightLondonSans';
-    src: url('../tipografia/Goodnight-London-Sans.ttf') format('truetype');
+    src: url('../tipografia/Goodnight-London-Sans.ttf');
 }
 .tipografiaSans {
     font-family: 'GoodnightLondonSans', sans-serif;
