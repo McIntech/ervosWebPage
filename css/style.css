@@ -14,6 +14,13 @@
     --colornueve: #F0FFFF;
 }
 
+@font-face {
+    font-family: 'GoodnightLondonSans';
+    src: url('../tipografia/Goodnight-London-Sans.ttf') format('truetype');
+}
+.tipografiaSans {
+    font-family: 'GoodnightLondonSans', sans-serif;
+}
 body {
 	background: var(--colordos);
 	color: #000000;
@@ -355,6 +362,10 @@ p {
 .section_service_3847298347{
     margin-top: 50px;
     margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .navbar{
@@ -377,16 +388,20 @@ p {
     border-radius: .25rem;
     border: 1px solid transparent;
 }
-.title_doctor_name_38149123{
-    font-size: 1.5rem;
-    text-align: center;
-    color: var(--colortres);
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    text-decoration-color: var(--colorcuatro);
+/* Estilos para el título del doctor */
+.title_doctor_name_38149123 {
+    font-size: 2em; /* Tamaño de fuente mayor para el título */
+    text-align: center; /* Centrar el título */
+    color: #212529; /* Color de texto oscuro para mayor legibilidad */
+    text-transform: uppercase; /* Texto en mayúsculas para un look más formal */
+    font-weight: bold; /* Fuente en negrita */
+    margin-bottom: 1em; /* Espacio después del título */
+    text-decoration: underline; /* Subrayado para destacar */
+    text-underline-offset: 5px; /* Distancia del subrayado al texto */
+    text-decoration-color: var(--colorcuatro); /* Color personalizado para el subrayado, asegúrate de definir esta variable en tu CSS o cambiarla por un valor específico */
 }
 .subtitle_doctor_name_38149123{
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: center;
     color: var(--colortres);
 }
@@ -524,6 +539,188 @@ p {
     display: none;
 }
 
+.container_form_contacto {
+    background-color: #E9F6FF; /* Un color más suave */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra ligera */
+    width: 100%;
+    max-width: 500px; /* Ancho máximo */
+    margin: auto; /* Centrado */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Espaciado entre elementos */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.input_correo, .input_mensaje {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd; /* Borde más sutil */
+    border-radius: 5px;
+    font-size: 16px; /* Tamaño de letra adecuado */
+}
+
+.input_correo {
+    height: 40px;
+}
+
+.input_mensaje {
+    height: 100px;
+    resize: vertical; /* Permitir redimensionamiento vertical */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 90%;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.container_google_maps {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 50px;
+    overflow: hidden; /* Para recortar el contenido fuera de los límites del div */
+}
+
+.fa-instagram, .fa-facebook-f{
+    color: #1B4965;
+    width: 45px;
+    height: 45px;
+}
+.texto_1B4965{
+    color: #1B4965;
+}
+.texto_black{
+    color: black;
+}
+.social-icons{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.text_contacto_info{
+    font-size: 15px;
+}
+.ajustar_cuadros_bio {
+    display: flex;
+    align-items: flex-start; /* Cambiado de center a flex-start para alinear los elementos al principio del contenedor */
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.cuadro_bio_1 {
+    height: 700px;
+    width: 30%;
+    background-color: #ffffff; /* Color de fondo más limpio */
+    padding: 20px;
+    display: flex;
+    align-items: flex-start; /* Alineación al principio para el contenido interno */
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+    border-radius: 10px; /* Esquinas redondeadas para un look moderno */
+    transition: all 0.3s ease; /* Transición suave para efectos de hover */
+}
+
+.cuadro_bio_1:hover {
+    transform: translateY(-5px); /* Elevación sutil al pasar el ratón */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada en hover */
+}
+
+.cuadro_info_bio, .cuadro_info_bio_2 {
+    height: 30%;
+    width: 100%;
+    background-color: #f7f7f7; /* Un tono de gris más claro para el fondo de los cuadros */
+    border-radius: 6px;
+    padding: 15px; /* Un poco más de padding para un mejor espacio */
+    position: relative;
+     /* Oculta los círculos que se desbordan */
+    transition: background-color 0.3s ease; /* Transición suave para el fondo en hover */
+
+}
+
+.cuadro_info_bio:hover, .cuadro_info_bio_2:hover {
+    background-color: #e9ecef; /* Cambio de color en hover */
+}
+
+.cuadro_info_bio::after, .cuadro_info_bio_2::after {
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    transition: transform 0.3s ease; /* Transición suave para el círculo en hover */
+    background-image: url('../images/IconoErvos.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.cuadro_info_bio::after {
+    right: -15px;
+    top: 30%;
+    transform: translateY(-50%);
+}
+
+.cuadro_info_bio_2::after {
+    left: -15px;
+    top: 30%;
+    transform: translateY(-50%);
+}
+
+.cuadro_info_bio:hover::after, .cuadro_info_bio_2:hover::after {
+    transform: translateY(-50%) scale(1.1); /* Efecto de crecimiento sutil para el círculo en hover */
+}
+
+.texto_derecha {
+    text-align: right;
+}
+
+
+
+.align_right{
+    margin-left: auto; /* Empuja el bloque a la derecha */
+}
+
+.doctor_image_bio{
+    background-image: url('../images/Dr.\ LozanoNewImage.png');
+    background-position: top;
+    background-size: cover;
+}
+
+.lineadivisora_3874381 {
+    background-color: var(--colorcuatro);;
+    width: 800px;
+    height: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px; /* Adjust the value as needed */
+    margin-bottom: 50px; /* Adjust the value as needed */
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Escondiendo elementos en dispositivos móviles */
+@media (max-width: 768px) {
+    .delete_in_phone {
+        display: none; /* Ocultar elementos en pantallas pequeñas */
+    }
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
@@ -646,9 +843,21 @@ p {
     .footer_web_328472394_sin_fix_34187329487{
         margin-top: 250px;
         width: 100%;
-        background-color: #1B4965;
-        bottom: 0; /* Asegura que el footer se quede en la parte inferior */
-        left: 0; /* Alinea el footer a la izquierda */
+        background-color: #ffffff;
+        bottom: 0;
+        left: 0;
+        border-top: 2px solid #000000; /* Añade un borde superior negro de 2px */
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .footer_web_328472394_sin_fix_2134837483{
+        margin-top: 100px;
+        width: 100%;
+        background-color: #ffffff;
+        bottom: 0;
+        left: 0;
+        border-top: 2px solid #000000; /* Añade un borde superior negro de 2px */
     }
 
 
@@ -703,6 +912,9 @@ p {
         position: absolute;
         left: 0;
         top: 0;
+    }
+    .misionyvision{
+        color: var(--colortres);
     }
     .arrow_right{
         height: 50%;
@@ -984,5 +1196,6 @@ p {
         color: black; /* Cambia #yourColor por el código de color que quieras */
         /* Agrega cualquier otro estilo para tus íconos aquí */
       }
+      
       
 }

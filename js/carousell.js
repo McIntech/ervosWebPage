@@ -40,9 +40,6 @@ function updateSlide() {
     text_1.textContent = currentSlide.texts[0];
     text_2.textContent = currentSlide.texts[1];
     text_3.textContent = currentSlide.texts[2];
-    text_1.style.fontFamily = 'ALTA';
-    text_2.style.fontFamily = 'ALTA';
-    text_3.style.fontFamily = 'ALTA';
 
     imageContainer.style.backgroundImage = `url('${currentSlide.imageUrl}')`;
 
